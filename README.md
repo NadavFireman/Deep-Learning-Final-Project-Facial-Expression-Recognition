@@ -17,8 +17,8 @@
 - `final_project_deep_learning.ipynb`: Driver notebook, all results executed.
 - `final_project_deep_learning.pdf`: PDF export of the executed notebook.
 - `data/` — Full dataset:
-  - `train/`: `angry/`, `disgust/`, `fear/`, `happy/`, `neutral/`, `sad/`, `surprise/`
-  - `test/`: `angry/`, `disgust/`, `fear/`, `happy/`, `neutral/`, `sad/`, `surprise/`
+  - `train/`: seven class folders - `angry/`, `disgust/`, `fear/`, `happy/`, `neutral/`, `sad/`, `surprise/`
+  - `test/`: seven class folders - `angry/`, `disgust/`, `fear/`, `happy/`, `neutral/`, `sad/`, `surprise/`
 - `data.py`: Stratified split, loading, normalization and caching.
 - `linear_classifier.py`: From-scratch multiclass SVM + SGD trainer.
 - `simple_cnn.py`: Baseline two-block CNN.
