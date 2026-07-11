@@ -1,6 +1,6 @@
 # Deep Learning Final Project - Facial Expression Recognition
 
-**Final Project (M.Sc. Data Science, HIT). Facial expression recognition on 48×48 grayscale faces — seven emotion classes, noisy labels, severe imbalance (disgust ≈ 1.5%). Five models compared under one protocol (stratified 60-20-20 split, best-validation snapshots, per-class confusion matrices), from a from-scratch linear SVM to a fine-tuned Swin Transformer above the estimated human-level baseline (~65%). A two-person team project.**
+**Final Project (M.Sc. Data Science, HIT). Facial expression recognition on 48×48 grayscale faces — seven emotion classes, noisy labels, severe imbalance (disgust ≈ 1.5%). Five models compared under one protocol (stratified 60-20-20 split, best-validation snapshots, per-class confusion matrices), from a from-scratch linear SVM to a fine-tuned Swin Transformer at **69.7% test accuracy**.**
 
 ## The Five Models
 - **Linear SVM (from scratch):** **37.3%** test accuracy.
@@ -16,7 +16,9 @@
 ## Repository Structure
 - `final_project_deep_learning.ipynb`: Driver notebook, all results executed.
 - `final_project_deep_learning.pdf`: PDF export of the executed notebook.
-- `data/`: Full dataset — `train/` and `test/`, one subfolder per class.
+- `data/` — Full dataset:
+  - `train/`: `angry/`, `disgust/`, `fear/`, `happy/`, `neutral/`, `sad/`, `surprise/`
+  - `test/`: `angry/`, `disgust/`, `fear/`, `happy/`, `neutral/`, `sad/`, `surprise/`
 - `data.py`: Stratified split, loading, normalization and caching.
 - `linear_classifier.py`: From-scratch multiclass SVM + SGD trainer.
 - `simple_cnn.py`: Baseline two-block CNN.
