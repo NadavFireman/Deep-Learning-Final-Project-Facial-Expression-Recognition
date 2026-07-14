@@ -1,6 +1,6 @@
 # Deep Learning Final Project - Facial Expression Recognition
 
-**Final Project (M.Sc. Data Science, HIT). Facial expression recognition on 48×48 grayscale faces — seven emotion classes, noisy labels, severe imbalance (disgust ≈ 1.5%). Five models compared under one protocol (stratified 60-20-20 split, best-validation snapshots, per-class confusion matrices), from a from-scratch linear SVM to a fine-tuned Swin Transformer at **69.7% test accuracy**.**
+**Final Project (Grade 96, M.Sc. Data Science, HIT). Facial expression recognition on 48×48 grayscale faces — seven emotion classes, noisy labels, severe imbalance (disgust ≈ 1.5%). Five models compared under one protocol (stratified 60-20-20 split, best-validation snapshots, per-class confusion matrices), from a from-scratch linear SVM to a fine-tuned Swin Transformer at **69.7% test accuracy**.**
 
 ## The Five Models
 - **Linear SVM (from scratch):** **37.3%** test accuracy.
